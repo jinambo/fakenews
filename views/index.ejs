@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Fake News</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/CSS/style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+    <link rel="shortcut icon" href="https://cdn0.iconfinder.com/data/icons/circle-icons/512/novinky-cz.png" />
+</head>
+<style>
+    body {
+        background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    }
+</style>
+<body>
+    <div class="uvod">
+        <h1>Vytvořte si vlastní falešné zprávy.</h1>
+        <p>Již od počátků internetu se začaly šířit <b>FALEŠNÉ ZPRÁVY</b>.</p>
+        <p>Tímto vtípkem bychom chtěli dostat do vědomí všech uživatelů, že ne všechno co je na internetu musí být pravda.</p>
+        <br>
+        <i>"Nevědomost je matkou vší zločinnosti. Příčinou zločinu je nedostatkem uvažování." <p style="font-size: 17.5px;"> - Honoré de Balzac</p></i>
+    </div>
+    <div class="inputs">
+        <form  action="/article/new" method="POST">
+            <textarea name="title" id="" cols="30" rows="7" placeholder="Zadej titulek.."></textarea>
+            <textarea name="content" id="" cols="30" rows="7" placeholder="Zadej obsah.."></textarea>
+            <!--<input id="titleValue" name="title" type="text" placeholder="Zadej titulek...">
+            <input id="messageValue" name="content" type="text" placeholder="Zadej obsah...">-->
+            Vyber fotku: <input type="text" name="img" type="text" placeholder="URL obrázku"> <!--<input id="imgValue" name="img" type="file" placeholder="Vyber obrázek.." onchange="uploadFile()">--> <br>
+            <button id="btn" type="submit">Vytvořit</button>
+        </form>
+    </div>
+
+
+
+
+    <!--
+    <div class="container">
+        <h1 id="title">Teprve osmnáctiletý chlapec trpí postejakulativními záchvaty.</h1>
+        <p id="message">Osmnáctiletý chlapec z Holohlav trpí vzácnou chorobou, která se vyskytuje většinou u mentálně retardovaných osob, on je však jenom kokot. <br> "Vždycky, když se udělá plácá sebou jak kapr" říká matka postiženého.</p>
+        <img src="https://scontent-vie1-1.xx.fbcdn.net/v/t1.15752-9/s2048x2048/33199772_1732882240128749_2006219008243662848_n.jpg?_nc_cat=0&oh=588b71639b72157c8d4c412f3c4193a0&oe=5BBF9198" width="47%" height="45%">
+    </div>
+
+    <div class="inputs">
+        <input id="titleValue" name="title" type="text" placeholder="Zadej titulek...">
+        <input id="messageValue" name="message" type="text" placeholder="Zadej zpravu...">
+        Vyber fotku: <input id="imgValue" name="img" type="file" placeholder="Vyber obrázek.." onchange="uploadFile()">
+        <button id="btn">Vytvořit</button>
+
+        <form ref='uploadForm' 
+            id='uploadForm' 
+            action='http://localhost:8000/upload' 
+            method='post' 
+            encType="multipart/form-data">
+            <input type="file" name="sampleFile" />
+            <input type='submit' value='Upload!' />
+            </form>  
+    </div>
+-->
+
+    <script src="/JS/jquery.min.js"></script>
+    <script src="/JS/haha.js"></script>
+
+</body>
+</html>

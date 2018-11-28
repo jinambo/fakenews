@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Times;
+}
+
+body, html {
+    height: 100%;
+    text-align: center;
+}
+
+h1, p{
+    margin: 0px 135px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 120px;
+}
+
+p {
+    color: #7c0d0e;
+    font-size: 22.5px;
+    margin-top: 12.5px;
+}
+
+.page {
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    margin-top: -45px;
+}
+.right {
+    margin-top: -10px;
+    float: right;
+    text-align: right;
+    padding-bottom: 5px; 
+}
+.right a {
+    font-size: 15px;
+    margin-left: 4px; 
+    margin-right: 4px;
+    font-family: sans-serif;
+    font-size: 12.5px;
+    margin-bottom: 5px;
+}
+.left {
+    padding-top: 14px; 
+    float: left;
+    text-align: left;
+    padding-bottom: 14px;
+}
+.left a {
+    color: #d81a1a;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.left i {
+    font-size: 12px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.header {
+    padding-top: 75px;
+}
+.header a {
+    color: #d81a1a;
+    display: inline-block;
+}
+.header p {
+    display: inline-block;
+    margin: 0px;
+    font-size: 15px;
+    color: #c6c6c6; 
+}
+.header img {
+    float: left;
+}
+.header input {
+    margin-top: 7px;
+    width: 160px;
+    height: 15px;
+}
+.header button {
+    width: 50px;
+    height: 19px;
+    font-size: 11px;
+    font-family: sans-serif;
+    border: 1px solid #c6c6c6;
+}
+
+.inputs {
+    color: #000;
+    width: 80%;
+    height: 60%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 75px;
+}
+.inputs form {
+    margin-top: 25px;
+}
+
+.inputs input, button {
+    height: 27.5px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+}
+
+.inputs input {
+    width: 260px;
+    border: none;
+    box-shadow: 10px 10px 6px -6px #777;
+    margin: 25px 15px;
+}
+.inputs textarea {
+    border-radius: 7.5px;
+    border: none;
+    box-shadow: 10px 10px 6px -6px #777;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 25px;
+    display: block;
+    font-size: 18px;
+}
+
+.inputs button {
+    width: 120px;
+    background-color: #d81a1a;
+    color: #fff;
+    letter-spacing: .5px;
+    height: 35px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.article {
+    margin-top: -650px;
+    text-align: left;
+}
+.article p, .article h1 {
+    margin-left: 125px;
+    margin-right: 205px;
+}
+.article p {
+    line-height: 30px;
+}
+.article img {
+    margin-top: 30px;
+    margin-left: 10%;
+}
+
+.ad {
+    display: inline-block;
+    margin-left: 50px;
+    transform: translate(0px, -20px);
+}
+
+.uvod {
+    margin-top: -90px;
+    margin-bottom: -25px;
+}
+
+.uvod h1 {
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.uvod p {
+    font-family: sans-serif;
+    color: #383838;
+    font-size: 20px;
+}
+
+.uvod b {
+    font-family: sans-serif;
+}
+
+.uvod i {
+    font-size: 20px;
+}
+
+::-webkit-input-placeholder { 
+    color: rgb(65, 65, 65);
+    padding-top: 7.5px
+  }
